@@ -5,8 +5,8 @@ import Home from "@/pages/Home"
 import Login from "@/pages/Login";
 
 const routes = [
-    {path: '/', componet: Home},
-    {path: '/login', componet: Login}
+    {path: '/', component: Home},
+    {path: '/login', component: Login}
 ]
 
 const router = createRouter({
