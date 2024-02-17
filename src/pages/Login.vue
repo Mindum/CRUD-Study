@@ -1,5 +1,5 @@
 <template>
-  <div class="form-signin w-100 m-auto">
+  <div class="form-sign in w-100 m-auto">
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" v-model="state.form.email">
         <label for="floatingInput">Email address</label>
@@ -44,22 +44,22 @@ export default {
 </script>
 
 <style scoped>
-.form-signin {
+.form-sign in {
   max-width: 330px;
   padding: 1rem;
 }
 
-.form-signin .form-floating:focus-within {
+.form-sign in .form-floating:focus-within {
   z-index: 2;
 }
 
-.form-signin input[type="email"] {
+.form-sign in input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.form-signin input[type="password"] {
+.form-sign in input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
